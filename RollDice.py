@@ -34,11 +34,7 @@ def is_worth(price, throws, step):
     return costs, earn, labels
 
 
-cost, win, labels = is_worth(3.30, 1000, 0.10)
-
-print(cost)
-print(win)
-print(labels)
+cost, win, labels = is_worth(3.30, 1000, 0.10) # Put changes here.
 
 # Visualization results.
 
